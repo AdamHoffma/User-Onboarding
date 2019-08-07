@@ -1,0 +1,112 @@
+
+
+.form {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border: solid yellow 50px;
+  height: auto;
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 50px;
+  
+}
+
+
+
+
+
+.heading {
+  color: yellow;
+  border-bottom: solid red 2px;
+}
+
+.check {
+  color: yellow;
+  
+}
+
+
+
+.field {
+  display: flex;
+  padding: 12px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 15px;
+  }
+
+  label {
+    color: yellow;
+    cursor: pointer;
+  }
+
+  .style {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .drop_down {
+    width: 25%;
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    background-color: yellow;
+    cursor: pointer;
+  }
+
+  .drop_down:hover {
+    background-color: black;
+    color: yellow;
+  }
+
+button {
+  margin: 30px;
+  width: 25%;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  background-color: yellow;
+}
+
+p {
+  color: yellow;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  font-size: 14px;
+  color: red;
+}
